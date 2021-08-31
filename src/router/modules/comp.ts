@@ -106,15 +106,15 @@ const routes: Array<RouteRecordRaw> = [
         },
         component: () => import('@/views/comp/modal/index.vue'),
       },
-      {
-        path: 'richtext',
-        name: `richtext`,
-        meta: {
-          title: '富文本',
-          extra: renderNew(),
-        },
-        component: () => import('@/views/comp/richtext/vue-quill.vue'),
-      },
+      // {
+      //   path: 'richtext',
+      //   name: `richtext`,
+      //   meta: {
+      //     title: '富文本',
+      //     extra: renderNew(),
+      //   },
+      //   component: () => import('@/views/comp/richtext/vue-quill.vue'),
+      // },
       {
         path: 'drag',
         name: `Drag`,
